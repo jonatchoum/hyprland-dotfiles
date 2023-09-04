@@ -162,13 +162,13 @@
 },
  "network": {
   "interval": 5,
-  "format-wifi": " {essid}",
+  "format-wifi": " ",
   "format-ethernet": " {ipaddr}/{cidr}",
   "format-linked": " {ifname} (No IP)",
   "format-disconnected": "睊 Disconnected",
   "format-disabled": "睊 Disabled",
   "format-alt": " {bandwidthUpBits} |  {bandwidthDownBits}",
-  "tooltip-format": "  {ipaddr} \n{ifname} via {gwaddr}",
+  "tooltip-format": "  {essid}\n{ipaddr} \n{ifname} via {gwaddr}",
 },
  "custom/cycle_wall":{
   "format":"",
